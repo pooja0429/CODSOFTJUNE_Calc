@@ -10,7 +10,7 @@ def buttonclick(number):
     e.delete(0,END)
     e.insert(0,str(current)+str(number))
 def clear():
-    e.delete(0,END)
+    e.delete(0,END) 
 def buttonadd():
     firstnum = e.get()
     global fnum
